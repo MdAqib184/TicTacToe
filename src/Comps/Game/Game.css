@@ -1,6 +1,7 @@
 .container {
+    display: flex;
     align-items: center;
-    
+    flex-direction: column;
 }
 .title {
     display: flex;
@@ -16,17 +17,16 @@
     color: rgb(230, 46, 22);
 }
 .reset {
-    width: 100px;
+    width: 80px;
     background: #b7b3b3;
     color: rgb(27, 28, 29);
-    display: flex;
-    justify-content: center;
     border-radius: 10px;
     padding: 10px 30px;
     cursor: pointer;
     margin-top: 15px;
     font-size: 20px;
-    margin-left: 44%;
+    display: flex;
+    justify-content: center;
 }
 .reset:hover{
     background: gray;
